@@ -1,0 +1,880 @@
+*{margin: 0;padding: 0;}
+
+
+/*이 위는 햄버거메뉴인듯.*/
+/*전 이 아래서부터 시작하겠습니다~*/
+
+
+/*메인-상단메뉴 시작*/
+
+.main_nav{
+    width: 100%;
+    height: 589px;
+    border: 0px solid blue; 
+    background-image: url('img_/mbg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
+    display: flex;
+    background-size: cover;
+}
+
+.wrap{
+    width: 350px;
+    height: 589px;
+    position: relative;
+}
+
+.title{
+    right: 0;
+    top: 92px;
+    position: absolute;
+}
+.menu1{
+    padding-top: 52px;
+}
+.menu2{
+    padding-top: 40px;
+}
+.menu3{
+    padding-top: 40px;
+}
+.menu4{
+    padding-top: 40px;
+}
+.menu5{
+    padding-top: 40px;
+}
+.menu6{
+    padding-top: 40px;
+}
+
+/*메인-상단메뉴 끝*/
+
+/*서브-상단메뉴 시작*/
+
+header{height: 70px;}
+header > nav{margin: auto;display: flex;justify-content: space-between;align-items: center;}
+header > nav > .logo{display: inline-block;padding: 1.2rem 0rem 0.8rem 4.0rem;}
+header > nav > .menu{display: inline-block;padding-right: 4.0rem;}
+
+header > .nav_menu{position: relative;display: none;}
+header > .nav_menu > ul{display: inline-block;width: 100%;padding: 0rem 0rem;}
+header > .nav_menu > ul > li{list-style: none;text-align: right;background-color: #FF9437;padding: 1.3rem 2.3rem;border-bottom: 1px solid #fff;}
+header > .nav_menu > ul > li > a{font-family: 'Noto Sans KR', sans-serif;font-size: 1.6rem;font-weight: 500; font-weight: 600; color: #fff; text-decoration: none;}
+
+header > .nav_menu > ul > li > a:hover{color: #04D0D0;}
+
+header > .nav_menu.active{display: flex;}
+
+.nav1{ 
+    width: 100%;
+    height: 70px;
+    background-color: #FF9437;
+}
+
+.title1{
+    width: 110px;
+    height: 29px;
+    padding-top: 10px;
+}
+
+/*서브-상단메뉴 끝*/
+
+/*모든 공통 푸터 시작*/
+
+.hdmanu{
+    width: 100%;
+    height: 40px;
+    background-color: #FF9437;
+    justify-content: center;
+    display: flex;
+}
+
+.text{
+    width: 350px;
+    height: 40px;
+    position: relative;
+}
+
+.te{
+    padding-top: 14px;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 600;
+    color: #fff;
+    position: absolute;
+    padding-left: 110px;
+}
+
+/*모든 공통 푸터 끝*/
+
+/*메인 시작*/
+
+.sub1main{
+    width: 100%;
+    height: 2100px;
+    justify-content: center;
+    display: flex;
+}
+
+.main_wrap{
+    width: 350px;
+    height: 2100px;
+    border: 0px solid red;
+    padding-left: 80px;
+}
+
+.bumm{
+    padding-left: 120px;
+}
+.sgna{
+    padding-top: 79px;
+}
+
+
+.but1{
+    padding-top: 90px;
+}
+.but2{
+    padding-top: 90px;
+}
+.but3{
+    padding-top: 90px;
+}
+.but4{
+    padding-top: 90px;
+}
+.but5{
+    padding-top: 90px;
+}
+.but6{
+    padding-top: 90px;
+}
+
+/*메인 끝*/
+
+
+
+/*서브1 시작*/
+
+
+.main_grup{
+    width: 100%;
+    height: 218px;
+    background-image: url('img_/sug1bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main_sub{
+    width: 100%;
+    height: 547px;
+    justify-content: center;
+    display: flex;
+}
+
+.sub1ma{
+    width: 390px;
+    height: 547px;
+}
+
+.sub1mai1{
+    padding-top: 14px;
+    padding-left: 127px;
+}
+.sub1mai2{
+    padding-top: 28px;
+    padding-left: 58px;
+}
+.sub1mai3{
+    padding-top: 46px;
+    padding-left: 127px;
+}
+.sub1mai4{
+    padding-top: 28px;
+    padding-left: 46px;
+}
+
+
+
+
+.sumarp{
+    width: 100%;
+    height: 285px;
+    background-color: black;
+    justify-content: center;
+    display: flex;
+}
+
+.suab{
+    width: 390px;
+    height: 285px;
+}
+.desi1{
+    padding-top: 27px;
+    padding-left: 63px;
+}
+
+/*서브1 끝*/
+
+
+.subbg{
+    width: 100%;
+    height: 116px;
+    background-image: url('img_/subbg.png');
+    background-position: center;
+}
+
+
+
+
+
+/*서브2 시작*/
+
+.intro1{
+    width: 100%;
+    height: 660px;
+    justify-content: center;
+    display: flex;
+    box-shadow: 0px 30px 70px #EEEAE0;
+}
+.int1{
+    width: 390px;
+    height: 660px;
+    border: 0px solid red;
+}
+.sat1{
+    padding-top: 20px;
+    padding-left: 70px;
+}
+.sat2{
+    padding-top: 57px;
+    padding-left: 110px;
+}
+.sat3{
+    padding-top: 22px;
+    text-align: center;
+    font-size: 11px;
+    font-family: 'NanumGothic';
+    line-height: 20px;
+}
+.sat4{
+    padding-top: 65px;
+    padding-left: 180px;
+}
+
+
+.sub2main1{
+    width: 100%;
+    height: 1299px;
+    justify-content: center;
+    display: flex;
+}
+.subma{
+    width: 390px;
+    height: 1299px;
+}
+.a1{
+    padding-top: 90px;
+    padding-left: 67px;
+}
+.a2{padding-top: 87px;}
+.a3{padding-top: 69px;}
+
+.sub2main2{
+    width: 100%;
+    height: 603px;
+    justify-content: center;
+    display: flex;
+    box-shadow: 30px 0px 70px #EEEAE0;
+}
+.subma1{
+    width: 390px;
+    height: 603px;
+}
+.a4{padding-top: 63px;}
+
+/*서브2 끝*/
+
+
+
+
+
+/*서브3 시작*/
+
+.intro2{
+    width: 100%;
+    height: 660px;
+    justify-content: center;
+    display: flex;
+}
+.int2{
+    width: 390px;
+    height: 660px;
+    border: 0px solid red;
+}
+.sub3sat1{
+    padding-top: 20px;
+    padding-left: 70px;
+}
+.sub3sat2{
+    padding-top: 57px;
+    padding-left: 110px;
+}
+.sub3sat3{
+    padding-top: 22px;
+    text-align: center;
+    font-size: 11px;
+    font-family: 'NanumGothic';
+    line-height: 20px;
+}
+.sub3sat4{
+    padding-top: 65px;
+    padding-left: 180px;
+}
+
+
+
+
+.sub3main1{
+    width: 100%;
+    height: 318px;
+    justify-content: center;
+    display: flex;
+    background-color: #f8f8f6;
+}
+.sug3min1{
+    width: 390px;
+    height: 318px;
+}
+.s3m1{padding-top: 15px;}
+.s3m2{padding-top: 30px; font-size: 11px; font-weight: 700; color: #DF5134; font-family: 'NanumGothic'; padding-left: 40px;}
+.s3m3{padding-top: 25px; font-size: 11px; text-align: center; font-family: 'NanumGothic';
+    line-height: 20px;}
+
+
+
+.sub3main2{
+    width: 100%;
+    height: 664px;
+    justify-content: center;
+    display: flex;
+}
+
+.sug3min2{
+    width: 390px;
+    height: 664px;
+}
+.s3con1{padding-top: 48px; padding-left: 73px;}
+.s3con2{padding-top: 85px;}
+
+
+
+.sub3main3{
+    width: 100%;
+    height: 281px;
+    justify-content: center;
+    display: flex;
+}
+.sub3min3{
+    width: 390px;
+    height: 281px;
+    position: relative;
+    border: 3px solid #D2D8DD;
+    border-radius: 27px;
+}
+.s3j1{position: absolute; left: 30px; top: 39px;}
+.s3j2{position: absolute; right: 30px; top: 39px;}
+
+
+.sub3main4{
+    width: 100%;
+    height: 546px;
+    background-image: url('img_/sub3mokup.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.sub3min4{}
+
+/*서브3 끝*/
+
+
+
+
+
+
+
+
+/*서브4 시작*/
+
+.intro3{
+    width: 100%;
+    height: 660px;
+    justify-content: center;
+    display: flex;
+}
+.int3{
+    width: 390px;
+    height: 660px;
+    border: 0px solid red;
+}
+.sub4sat1{
+    padding-top: 20px;
+    padding-left: 70px;
+}
+.sub4sat2{
+    padding-top: 57px;
+    padding-left: 110px;
+}
+.sub4sat3{
+    padding-top: 22px;
+    text-align: center;
+    font-size: 11px;
+    font-family: 'NanumGothic';
+    line-height: 20px;
+}
+.sub4sat4{
+    padding-top: 65px;
+    padding-left: 180px;
+}
+
+
+
+
+.sub4main1{
+    width: 100%;
+    height: 317px;
+    justify-content: center;
+    display: flex;
+    background-image: url('img_/sub4bg.png');
+    background-repeat: repeat-x;
+    background-position: bottom;
+    background-size: auto;
+}
+.sub4min1{
+    width: 390px;
+    height: 317px;
+}
+.s4m1{padding-bottom: 79px;}
+
+
+
+
+.sub4main2{
+    width: 100%;
+    height: 2671px;
+    justify-content: center;
+    display: flex;
+    border: 0px solid red;
+}
+.sub4min2{
+    width: 390px;
+    height: 2671px;
+}
+.s4jg1{padding-top: 40px; padding-left: 30px;}
+.s4jg2{padding-top: 40px; padding-left: 30px;}
+.s4jg3{padding-top: 40px; padding-left: 30px;}
+
+
+
+
+
+.sub4main3{
+    width: 100%;
+    height: 372px;
+    background-color: black;
+    justify-content: center;
+    display: flex;
+}
+.sub4min3{
+    width: 390px;
+    height: 372px;
+}
+.s4hd{padding-bottom: 0;}
+
+/*서브4 끝*/
+
+
+
+
+/*서브5 시작*/
+
+.intro4{
+    width: 100%;
+    height: 660px;
+    justify-content: center;
+    display: flex;
+    box-shadow: 30px 0px 70px #e0e0e0;
+}
+.int4{
+    width: 390px;
+    height: 660px;
+    border: 0px solid red;
+}
+.sub5sat1{
+    padding-top: 20px;
+    padding-left: 70px;
+}
+.sub5sat2{
+    padding-top: 57px;
+    padding-left: 130px;
+}
+.sub5sat3{
+    padding-top: 22px;
+    text-align: center;
+    font-size: 11px;
+    font-family:'NanumGothic';
+    line-height: 20px;
+}
+.sub5sat4{
+    padding-top: 65px;
+    padding-left: 180px;
+}
+
+
+
+
+.sub5main1{
+    width: 100%;
+    height: 360px;
+    display: flex;
+    justify-content: center;
+}
+.sub5min1{
+    width: 390px;
+    height: 360px;
+}
+.s5m1{padding-top: 50px; padding-left: 20px;}
+.s5m2{padding-top: 21px; font-size: 11px; text-align: center; font-family:'NanumGothic';
+    line-height: 20px;}
+
+
+
+.sub5main2{
+    width: 100%;
+    height: 346px;
+    justify-content: center;
+    display: flex;
+}
+.sub5min2{
+    width: 390px;
+    height: 346px;
+}
+.s5h1{padding-top: 34px; padding-left: 25px;}
+
+
+
+
+.sub5main3{
+    width: 100%;
+    height: 435px;
+    justify-content: center;
+    display: flex;
+}
+.sub5min3{
+    width: 390px;
+    height: 435px;
+    background-image: url('img_/sub5bg1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.s5r1{padding-top: 42px;}
+.s5r2{padding-top: 14px; float: right;}
+.s5r3{width: 247px; height: 120px;
+    padding-top: 14px; border: 00px solid red; float: left;
+}
+
+
+
+
+
+.sub5main4{
+    width: 100%;
+    height: 347px;
+    justify-content: center;
+    display: flex;
+    background-image: url('img_/sub5grep1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.sub5min4{
+    width: 390px;
+    height: 347px;
+}
+
+.s5e1{}
+
+
+
+
+
+
+.sub5main5{
+    width: 100%;
+    height: 650px;
+    justify-content: center;
+    display: flex;
+}
+.sub5min5{
+    width: 390px;
+    height: 650px;
+}
+
+
+.s5t1{padding-top: 27px; padding-left: 56px;}
+
+#container {
+    width: 346px;
+    height: 346px;
+    overflow: hidden;
+    margin: 0 auto;
+    justify-content: center;
+    margin-top: 40px;
+    z-index: 1;
+}
+  
+.img {
+    display: none;
+    width: 346px;
+    height: 346px;
+    z-index: 1;
+}
+  
+.img.on {
+    display: block;
+    z-index: 1;
+}
+
+
+
+
+
+
+.intro5{
+    width: 100%;
+    height: 660px;
+    justify-content: center;
+    display: flex;
+    box-shadow: 30px 0px 70px #e0e0e0;
+}
+.int5{
+    width: 390px;
+    height: 660px;
+    border: 0px solid red;
+}
+.sub5sat10{
+    padding-top: 20px;
+    padding-left: 70px;
+}
+.sub5sat20{
+    padding-top: 57px;
+    padding-left: 110px;
+}
+.sub5sat30{
+    padding-top: 22px;
+    text-align: center;
+    font-size: 11px;
+    font-family: 'NanumGothic';
+    line-height: 20px;
+}
+.sub5sat40{
+    padding-top: 65px;
+    padding-left: 180px;
+}
+
+
+
+
+
+.sub5main6{
+    width: 100%;
+    height: 325px;
+    justify-content: center;
+    display: flex;
+}
+.sub5min6{
+    width: 390px;
+    height: 325px;
+}
+.s5x1{padding-left: 42px; padding-top: 30px;}
+.s5x2{padding-left: 41px; padding-top: 25px; font-family: 'NanumGothic';
+    line-height: 20px;}
+
+
+
+
+
+.sub5main7{
+    width: 100%;
+    height: 548px;
+    justify-content: center;
+    display: flex;
+}
+.sub5min7{
+    width: 390px;
+    height: 548px;
+}
+
+.s5o1{padding-top: 50px; padding-left: 26px;}
+
+
+
+
+
+
+.sub5main8{
+    width: 100%;
+    height: 440px;
+    justify-content: center;
+    display: flex;
+}
+.sub5min8{
+    width: 390px;
+    height: 440px;
+}
+
+.s5a1{padding-left: 13px; padding-top: 33px;}
+.s5a2{padding-top: 31px;}
+
+
+
+
+
+
+.sub5main9{
+    width: 100%;
+    height: 390px;
+    justify-content: center;
+    display: flex;
+}
+.sub5min9{
+    width: 390px;
+    height: 390px;
+    border: 0px solid red;
+}
+.s5q1{padding-top: 10px;}
+.s5q2{
+    padding-left: 120px; 
+    font-size: 20px; 
+    font-weight: 800;
+}
+.s5q3{}
+
+
+
+.sub5main10{
+    width: 100%;
+    height: 436px;
+    justify-content: center;
+    display: flex;
+}
+.sub5min10{
+    width: 390px;
+    height: 436px;
+    position: relative;
+}
+.s5w1{
+    position: absolute;
+    top: 52px;
+}
+.s5w2{
+    position: absolute;
+    top: 27px;
+    right: 14px;
+}
+
+
+
+.sub5main11{
+    width: 100%;
+    height: 424px;
+    justify-content: center;
+    display: flex;
+    background-color: black;
+    background-image: url('img_/sub5dot.png');
+    z-index: 2;
+}
+.sub5min11{
+    width: 390px;
+    height: 424px;
+}
+
+
+
+/*서브5 끝*/
+
+/*서브6 시작*/
+
+.intro6{
+    width: 100%;
+    height: 660px;
+    justify-content: center;
+    display: flex;
+}
+.int6{
+    width: 390px;
+    height: 660px;
+    border: 0px solid red;
+}
+.sub6sat1{
+    padding-top: 20px;
+    padding-left: 70px;
+}
+.sub6sat2{
+    padding-top: 57px;
+    padding-left: 120px;
+}
+.sub6sat3{
+    padding-top: 22px;
+    text-align: center;
+    font-size: 11px;
+    font-family: 'NanumGothic';
+    line-height: 20px;
+}
+.sub6sat4{
+    padding-top: 65px;
+    padding-left: 180px;
+}
+
+
+
+
+
+.sub6main1{
+    width: 100%;
+    height: 566px;
+    display: flex;
+    justify-content: center;
+    background-image: url('img_/sub6bg.png');
+    background-position: bottom;
+    background-repeat: repeat-x;
+}
+.sub6min1{
+    width: 390px;
+    height: 566px;
+}
+.s6m1{padding-top: 33px; padding-left: 40px;}
+
+
+
+
+.sub6main2{
+    width: 100%;
+    height: 781px;
+    display: flex;
+    justify-content: center;
+}
+.sub6min2{
+    width: 390px;
+    height: 781px;
+}
+.s6y1{float: left; padding-top: 32px;}
+.s6y2{float: right;}
+.s6y3{float: left;}
+.s6y4{float: right;}
+
+
+/*서브6 끝*/
